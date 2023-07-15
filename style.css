@@ -75,6 +75,43 @@ nav li> a{
 }
 
 
+/* Styles of Main Section */
+main{
+    max-width:1440px;
+    margin: 0 auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-photo-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem
+}
+
+.team-text-container{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-text-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.team-text-title .span-quick{
+    color:#727272;
+}
+.team-text-title .span-feature{
+    color:#FF900E;
+}
+
+
+
+
+
+
+
 /* Media queries for  mobile devices */
 @media screen and (max-width:576px){
     header{
